@@ -1,0 +1,99 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Sevillana&family=Yellowtail&display=swap');
+
+:root {
+    --rosa-1: #FFB1B1;
+    --rosa-2: #FFCBCB;
+    --branco: #FFEAE3;
+    --azul: #121481;
+    --fonte-cabecalho: "Jersey 10", sans-serif;
+    --fonte-niver: "Sevillana", cursive;
+    --fonte-texto: "Yellowtail", cursive;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 3rem;
+    background-color: var(--rosa-1);
+    font-family: var(--fonte-cabecalho);
+    justify-content: center;
+}
+
+.cabecalho__menu__img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.cabecalho__menu__links {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.cabecalho__menu__links:hover {
+    color: var(--rosa-2);
+}
+
+.apresentacao {
+    background-color: var(--branco);
+    display: flex;
+    font-family: var(--fonte-niver);
+    color: var(--azul);
+    align-items: center;
+    flex-direction: column;
+}
+
+.apresentacao__titulo {
+    margin-top: 5rem;
+    font-size: 7rem;
+}
+
+.apresentacao__section {
+ margin: 5rem;
+}
+
+.apresentacao__texto {
+    margin: 5rem 3rem 0 3rem;
+    font-size: 10rem;
+}
+
+.apresentacao__img {
+    margin: 5rem;
+}
+
+.apresentacao__div {
+    margin: 3rem;
+}
+
+.apresentacao__fotos {
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.apresentacao__video {
+    font-family: var(--fonte-cabecalho);
+    font-size: 5rem;
+    color: var(--rosa-1);
+    border: 1rem solid;
+    margin: 5rem;
+}
+
+.apresentacao__clash {
+    margin: 0 7rem 7rem 7rem;
+}
+
+.rodape__txt {
+    font-family: var(--fonte-cabecalho);
+    color: var(--branco);
+    font-size: 3rem;
+}
+
+.rodape {
+    display: flex;
+    padding: 3rem;
+    background-color: var(--rosa-1);
+    font-family: var(--fonte-cabecalho);
+    justify-content: center;
+    
+}
